@@ -1,0 +1,193 @@
+
+
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+
+
+
+h5{
+    font-size: smaller;
+    margin: 1.2rem 0;
+    color: #ffffff;
+ 
+ }
+ 
+ 
+ 
+ 
+ h4{
+     font-size: 2.25rem;
+     letter-spacing: 1.2rem;
+     color: #e639dd;
+ 
+ }
+
+
+ h2{
+    font-size: 2.2rem;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+ span{
+    color: #ff274b;
+}
+
+
+
+
+
+
+
+
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: #171a1c;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+nav{
+   
+    padding-top: 2.8rem;
+    padding-left: 8%;
+    padding-right: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem;
+
+}
+
+
+
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+
+}
+
+
+nav ul li a:hover{
+    color: #ff274b;
+}
+
+
+
+.btn{
+    background-color: #ff274b;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.81rem 1.87rem;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: 00.4s;
+
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid #ff274b ;
+    
+}
+
+
+.content{
+    flex-grow: 1;
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-texts{
+    position: relative;
+    bottom:  40px;
+}
+
+
+.container-images{
+    width: 50%;
+    height: 95%;
+    position: relative;
+    align-self: flex-end;
+  
+
+}
+
+.container-images img{
+    position: absolute;
+    bottom: 40;
+    height: 90%;
+    left: 30%;
+    transform: translateY(-80);
+}
+
+
+.services{
+    color: white;
+    background-color: rgb(34, 34, 34);
+    padding: 3rem;
+    display: inline-flex ;
+    align-items: center;
+    justify-content: space-around ;
+
+}
+
+
+.services .container-text{
+    width: 90%;
+}
+footer{
+    padding: 2rem ;
+    background-color: grey;
+}
+footer .content.footer {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+}
+footer h2{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+
+
+
+
+
+

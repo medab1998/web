@@ -1,0 +1,82 @@
+body{
+    background-image: url(https://previews.123rf.com/images/aispl/aispl1202/aispl120200092/12487770-vector-illustration-d-arri%C3%A8re-plan-m%C3%A9dical-et-de-soins-de-sant%C3%A9-du-symbole-m%C3%A9dical-sur-fond-bleu-.jpg);
+
+}
+.login-boxx{
+    width: 370px;
+    height: 550px;
+    margin: auto;
+    
+   
+    border-radius: 20px;
+
+}
+.login-box{
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+    color: #ff274b;
+
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 20px;
+    outline: none;
+}
+
+input[type="button"]{
+    width: 320px;
+    height: 45px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+}
+p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+#submit{
+    margin: 20px 35px;
+    color: white;
+    background-color: #ff274b;
+    width: 80%;
+    font-size: 17px;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+#submit:hover{
+    color: black;
+    background-color: white;
+
+}
+
+.alert{
+    color: black ;
+    margin: 100px 600px;
+    position: relative;
+    bottom: 370px;
+}
